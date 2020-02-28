@@ -17,6 +17,15 @@ function createEmployeeRecords(arrayOfArrays) {
   return employeeRecords;
 }
 
+function createTimeInEvent(dateTime) {
+  const [date, hour] = dateTime.split(' ');
+  this.timeInEvents.push({
+    type: "TimeIn",
+    date: date,
+    hour: parseInt(hour, 10)
+  });
+}
+
 /*
 We're giving you this function. Take a look at it, you might see some usage
 that's new and different. That's because we're avoiding a well-known, but
