@@ -51,7 +51,10 @@ function wagesEarnedOnDate(date) {
   return hoursWorkedOnDate.call(this, date) * this.payPerHour;
 }
 
-function calculatePayroll()
+function calculatePayroll() {
+  
+}
+
 /*
 We're giving you this function. Take a look at it, you might see some usage
 that's new and different. That's because we're avoiding a well-known, but
