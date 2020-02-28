@@ -1,3 +1,6 @@
+function createEmployeeRecord(array) {
+  
+}
 
 /*
 We're giving you this function. Take a look at it, you might see some usage
