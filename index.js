@@ -27,7 +27,7 @@ function createTimeInEvent(dateTime) {
   return this;
 }
 
-function createTimeInEvent(dateTime) {
+function createTimeOutEvent(dateTime) {
   const [date, hour] = dateTime.split(' ');
   this.timeOutEvents.push({
     type: "TimeOut",
