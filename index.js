@@ -39,8 +39,12 @@ function createTimeOutEvent(dateTime) {
 
 function hoursWorkedOnDate(date) {
   const timeInEvent = this.timeInEvents.find(function(timeIn) {
-    return 
-  })
+    return timeIn.date === date;
+  });
+  const timeOutEvent = this.timeOutEvents.find(function(timeOut) {
+    return timeOut.date === date;
+  });
+  
 }
 
 /*
