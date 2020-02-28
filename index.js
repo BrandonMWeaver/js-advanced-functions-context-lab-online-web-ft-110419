@@ -24,6 +24,7 @@ function createTimeInEvent(dateTime) {
     date: date,
     hour: parseInt(hour, 10)
   });
+  return this;
 }
 
 /*
