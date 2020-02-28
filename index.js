@@ -10,7 +10,7 @@ function createEmployeeRecord(array) {
 }
 
 function createEmployeeRecords(arrayOfArrays) {
-  employeeRecords = [];
+  let employeeRecords = [];
   for (const array of arrayOfArrays) {
     employeeRecords.push(createEmployeeRecord(array));
   }
