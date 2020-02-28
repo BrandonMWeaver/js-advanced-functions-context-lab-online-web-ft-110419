@@ -51,9 +51,9 @@ function wagesEarnedOnDate(date) {
   return hoursWorkedOnDate.call(this, date) * this.payPerHour;
 }
 
-function calculatePayroll() {
-  return reduce.call(this, function(memo, record) {
-    return memo + allWagesFor(record);
+function calculatePayroll(employeeRecords) {
+  return reduce.(function(memo, employeeRecord) {
+    return memo + allWagesFor(employeeRecord);
   });
 }
 
