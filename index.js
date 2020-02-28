@@ -47,7 +47,9 @@ function hoursWorkedOnDate(date) {
   return (timeOutEvent.hour - timeInEvent.hour) / 100;
 }
 
-
+function wagesEarnedOnDate(date) {
+  
+}
 
 /*
 We're giving you this function. Take a look at it, you might see some usage
