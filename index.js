@@ -52,7 +52,9 @@ function wagesEarnedOnDate(date) {
 }
 
 function calculatePayroll() {
-  return this.reduce(function(memo,))
+  return this.reduce(function(memo, record) {
+    
+  });
 }
 
 /*
