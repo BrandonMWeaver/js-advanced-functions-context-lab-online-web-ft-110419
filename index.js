@@ -53,7 +53,7 @@ function wagesEarnedOnDate(date) {
 
 function calculatePayroll() {
   return this.reduce(function(memo, record) {
-    
+    return memo + allWagesFor(record);
   });
 }
 
