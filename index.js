@@ -38,7 +38,7 @@ function createTimeOutEvent(dateTime) {
 }
 
 function hoursWorkedOnDate(date) {
-  
+  const timeInEvent = this.timeInEvents.
 }
 
 /*
