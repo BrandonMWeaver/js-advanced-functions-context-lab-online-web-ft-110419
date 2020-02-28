@@ -44,7 +44,7 @@ function hoursWorkedOnDate(date) {
   const timeOutEvent = this.timeOutEvents.find(function(timeOut) {
     return timeOut.date === date;
   });
-  return (timeOutEvent - timeInEvent) / 100;
+  return (timeOutEvent.hour - timeInEvent.hour) / 100;
 }
 
 
